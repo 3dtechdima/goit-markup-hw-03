@@ -1,0 +1,373 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+h2 {
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+link {
+  text-decoration: none;
+}
+
+.btn,
+.btn-portfolio {
+  text-decoration: unde cornflowerblue;
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.btn {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: white;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*---------------Header--------------------------------------*/
+.heder-list {
+  display: flex;
+}
+
+.heder-links {
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.contact-list {
+  position: absolute;
+  cursor: pointer;
+}
+
+.heder-links.studio {
+  color: #2196f3;
+  margin-left: -50px;
+}
+.contact-list {
+  font-family: Roboto;
+  font-weight: 500;
+  margin-top: -22px;
+  display: flex;
+  margin-left: 863px;
+}
+.text-contact {
+  padding-left: 50px;
+}
+.links-section {
+  font-family: Roboto;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-left: 93px;
+  display: flex;
+}
+.section.section-heder {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: white;
+}
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: black;
+}
+/*-------------------------Site title-------------------->\*/
+.hero-bg {
+  height: 600px;
+}
+.title-bg {
+  background-color: #2f303a;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 900;
+  padding-top: 200px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: white;
+}
+.btn-title-position {
+  margin-top: 30px;
+}
+.btn-title {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*---------------Description of the benefits-----------------*/
+.hero-bg-position {
+  margin-top: -73px;
+}
+.section.hero-bg-position {
+  margin-top: 0;
+}
+.description-benefits {
+  margin: 0 auto;
+}
+.links-section.description-text {
+  margin-left: 0px;
+}
+.list-size {
+  width: 270px;
+  height: 101px;
+}
+.text-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.footer-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+.footer-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+.description-hero {
+  padding-top: 10px;
+  width: 270px;
+  height: 75px;
+}
+.title-hero {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text-hero {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*-----------------------------Doing---------------------------*/
+.section.doing {
+  padding-top: 94px;
+  margin: 0 auto;
+}
+
+.doing-sec {
+  margin-left: -15px;
+  padding-top: 50px;
+}
+.image-doing {
+  padding-left: 30px;
+}
+
+/*---------------Our team position-----------------*/
+
+.list-position {
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list {
+  padding-top: 50px;
+  margin-left: -20px;
+}
+.list-position {
+  margin-left: 30px;
+  background-color: #f5f4fa;
+}
+
+.description-benefits:nth-child(1) {
+  margin-left: px;
+}
+.image-text {
+  margin-left: 0px;
+  text-align: center;
+}
+.title-image {
+  padding-top: 30px;
+}
+.list-image {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+/*---------------------Portfoliop----------------------------*/
+.prtfolio-heder {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: 1px solid #ececec;
+}
+.portfolio-content {
+  margin-top: 94px;
+}
+.examples-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.links-portfolio {
+  margin-top: 0px;
+  padding-left: 295px;
+}
+/*------БЕДА-----*/
+.card-portfolio {
+  margin-top: 30px;
+  margin-left: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+}
+.card-portfolio:nth-child(3n + 1) {
+  margin-left: 15px;
+}
+.card-portfolio:nth-child(3n + 3) {
+  margin-right: 15px;
+}
+.card-portfolio:nth-child(1) {
+  margin-top: 0;
+}
+.card-portfolio:nth-child(2) {
+  margin-top: 0;
+}
+.card-portfolio:nth-child(3) {
+  margin-top: 0;
+}
+.text-portfolio {
+  margin-top: 60px;
+}
+.hero-portfolio {
+  padding-top: 20px;
+  position: absolute;
+}
+.btn-list {
+  padding-left: 8px;
+  padding-left: 8px;
+}
+.btn-portfolio {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-family: Roboto;
+
+  font-weight: 500;
+}
+.btn-portfolio-blue {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*--------------------------footer-----------------------------*/
+.studio-footer {
+  color: white;
+  margin: 0 auto;
+}
+
+.logo-footer {
+  padding-top: 0px;
+}
+.text-address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-scroll {
+  padding-bottom: 7px;
+}
+.footer-scroll:last-child {
+  padding-bottom: 0px;
+}
+
+.section-footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-list {
+  padding-top: 20px;
+}
+.cotainer-futer {
+  background-color: #2f303a;
+}
