@@ -58,7 +58,9 @@ button {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.link:hover {
+  color: #2196f3;
+}
 /*---------------Header--------------------------------------*/
 .heder-list {
   display: flex;
@@ -255,6 +257,7 @@ button {
 }
 .title-image {
   padding-top: 30px;
+  text-transform: capitalize;
 }
 .list-image {
   padding-top: 10px;
