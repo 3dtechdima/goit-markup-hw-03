@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 h1,
 h2,
@@ -28,15 +28,13 @@ ul {
   margin: 0;
   padding: 0;
 }
-link {
+button {
+  border: none;
+}
+.link {
   text-decoration: none;
 }
 
-.btn,
-.btn-portfolio {
-  text-decoration: unde cornflowerblue;
-  cursor: pointer;
-}
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -45,12 +43,10 @@ link {
   margin: -1px;
 }
 .btn {
+  border: none;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: white;
 }
@@ -138,6 +134,7 @@ link {
   color: white;
 }
 .btn-title-position {
+  margin-left: 500px;
   margin-top: 30px;
 }
 .btn-title {
@@ -148,6 +145,10 @@ link {
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.btn-title:hover {
+  cursor: pointer;
+  background: #188ce8;
 }
 /*---------------Description of the benefits-----------------*/
 .hero-bg-position {
@@ -213,11 +214,13 @@ link {
   color: #757575;
 }
 /*-----------------------------Doing---------------------------*/
-.section.doing {
+.doing {
   padding-top: 94px;
   margin: 0 auto;
 }
-
+.doing-conteiner {
+  margin-top: -94px;
+}
 .doing-sec {
   margin-left: -15px;
   padding-top: 50px;
@@ -234,19 +237,18 @@ link {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
+.team-position {
+  background: #f5f4fa;
+}
 .our-team-list {
   padding-top: 50px;
   margin-left: -20px;
 }
 .list-position {
   margin-left: 30px;
-  background-color: #f5f4fa;
+  background-color: white;
 }
 
-.description-benefits:nth-child(1) {
-  margin-left: px;
-}
 .image-text {
   margin-left: 0px;
   text-align: center;
@@ -264,20 +266,50 @@ link {
   padding-bottom: 24px;
   border: 1px solid #ececec;
 }
-.portfolio-content {
-  margin-top: 94px;
-}
+
 .examples-list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
+.hero-portfolio {
+  margin-left: 24px;
+}
+.portfolio-title {
+  margin-top: 20px;
+  margin-left: 24px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
 
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.portfolio-text {
+  margin-left: 24px;
+  margin-top: 4px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 .links-portfolio {
   margin-top: 0px;
   padding-left: 295px;
+  margin-bottom: 50px;
 }
-/*------БЕДА-----*/
 .card-portfolio {
   margin-top: 30px;
   margin-left: 30px;
@@ -314,6 +346,7 @@ link {
   padding-left: 8px;
 }
 .btn-portfolio {
+  background-color: #f5f4fa;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
@@ -322,19 +355,20 @@ link {
 
   font-weight: 500;
 }
+.btn-portfolio:hover {
+  cursor: pointer;
+}
 .btn-portfolio-blue {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
-
+.btn-portfolio-blue:hover {
+  cursor: pointer;
+}
 /*--------------------------footer-----------------------------*/
 .studio-footer {
   color: white;
